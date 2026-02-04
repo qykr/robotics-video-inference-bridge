@@ -1,3 +1,7 @@
+<a href="https://livekit.io/">
+  <img src="./.github/assets/livekit-mark.png" alt="LiveKit logo" width="100" height="100">
+</a>
+
 # LiveKit Robotics: Video Inference Bridge
 
 Real-time cloud inference transport for computer vision using [LiveKit](https://livekit.io/). Stream video from edge devices to the cloud for YOLO object detection, receiving bounding box results in real-time.

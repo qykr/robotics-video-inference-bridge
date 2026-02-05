@@ -1,0 +1,11 @@
+dependencies:
+  idf: '>=5.4'
+description: LiveKit Sandbox Token Client
+discussion: https://livekit.io/join-slack/
+files:
+  use_gitignore: true
+issues: https://github.com/livekit/client-sdk-esp32/issues/
+license: Apache-2.0
+repository: https://github.com/livekit/client-sdk-esp32/
+url: https://livekit.io/
+version: 0.1.0

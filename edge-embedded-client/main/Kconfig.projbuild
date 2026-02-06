@@ -10,14 +10,14 @@ menu "LiveKit Example"
     menu "Video Settings"
         config LK_EXAMPLE_VIDEO_WIDTH
             int "Video width"
-            default 640
+            default 800
             range 320 1920
             help
                 Width of the video stream in pixels.
 
         config LK_EXAMPLE_VIDEO_HEIGHT
             int "Video height"
-            default 480
+            default 640
             range 240 1080
             help
                 Height of the video stream in pixels.

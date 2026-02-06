@@ -16,6 +16,12 @@ ESP32-IDF application that streams H.264 video from an ESP32-P4 camera to the cl
 - ESP32-P4 development board (e.g., ESP32-P4-NANO)
 - MIPI CSI camera module
 
+## Compatibility
+
+This client has been tested on:
+
+- [Waveshare ESP32-P4-Nano](https://www.waveshare.com/esp32-p4-nano.htm).
+
 ## Configuration
 
 > [!TIP]

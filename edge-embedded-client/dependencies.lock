@@ -180,7 +180,7 @@ dependencies:
       type: service
     version: 1.0.4
   espressif/esp_hosted:
-    component_hash: 791dc77041a4aa6c57bed57d775b6f218071beb57e883d238343295ea64cff43
+    component_hash: 6f5dc62f18c86b4ac65e1c8cb56fe122de894d80b8c8eaac451f3c0a913b8d76
     dependencies:
     - name: idf
       require: private
@@ -188,7 +188,7 @@ dependencies:
     source:
       registry_url: https://components.espressif.com/
       type: service
-    version: 2.0.17
+    version: 2.11.5
   espressif/esp_image_effects:
     component_hash: a35037db02862d3cef6f72c25f422ae62da6e6c88219ce03c9ea24e0315ceaaa
     dependencies:
@@ -733,6 +733,6 @@ direct_dependencies:
 - livekit/livekit
 - livekit/sandbox_token
 - tempotian/codec_board
-manifest_hash: 5dd369624e9e90262684c02535aad50b56c67ed459ebac717488cdf06d63b002
+manifest_hash: 0bfc14e1defe062e6cedbf8c57958a3e60252754b3b225e902188fed6b5c3d0f
 target: esp32p4
 version: 2.0.0

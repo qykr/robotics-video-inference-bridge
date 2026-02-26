@@ -9,4 +9,5 @@ dependencies = [
     "livekit-api>=0.8",
     "imageio[ffmpeg]>=2.34",
     "python-dotenv>=1.0",
+    "opencv-python>=4.8",
 ]

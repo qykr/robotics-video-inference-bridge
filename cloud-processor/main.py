@@ -92,6 +92,13 @@ async def main():
         if track.kind == rtc.TrackKind.KIND_VIDEO and video_task is None:
             logger.info(f"Video track subscribed from {participant.identity}")
             video_task = asyncio.create_task(process_video_track(track, model, room))
+    
+    @room.on("data_received")
+    def on_data_received(data: rtc.DataPacket):        
+        if data.topic == "ping":
+            asyncio.create_task(
+                room.local_participant.publish_data(data.data, topic="pong")
+            )
 
     logger.info(f"Connecting to {url}")
     await room.connect(url, token)

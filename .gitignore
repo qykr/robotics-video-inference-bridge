@@ -9,3 +9,6 @@ __pycache__/
 **/sdkconfig
 **/build/
 **/managed_components/
+.DS_Store
+node_modules/
+dist/

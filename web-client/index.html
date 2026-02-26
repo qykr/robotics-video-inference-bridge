@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edge CV Viewer</title>
+  <style>
+    body { font-family: sans-serif; background: #1a1a1a; color: white; display: flex; flex-direction: column; align-items: center; padding-top: 50px; }
+    #connect-btn { padding: 15px 30px; font-size: 18px; cursor: pointer; background: #00FF41; color: black; border: none; border-radius: 5px; font-weight: bold; }
+    
+    /* The container stacks the video and canvas exactly on top of each other */
+    #container { position: relative; width: 640px; height: 480px; display: none; background: #000; border: 2px solid #333; }
+    #webcam { width: 100%; height: 100%; object-fit: cover; }
+    #overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+  </style>
+</head>
+<body>
+
+  <button id="connect-btn">Connect to Edge Stream</button>
+
+  <div id="container">
+    <video id="webcam" autoplay playsinline muted></video>
+    <canvas id="overlay"></canvas>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
